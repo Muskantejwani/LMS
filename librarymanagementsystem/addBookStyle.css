@@ -1,0 +1,118 @@
+body{
+    height: 100%;
+    width: 100%;
+    
+ }
+ .topImage{
+    height: 50vh;
+    width: 95vw;
+    margin-top: 30px;
+    border-radius: 20px;
+    opacity: 0.9;
+	box-shadow: 0px 0px 0px 0px #3e2723;
+	-webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    transform: rotate(180deg);
+}
+.topImage:hover{
+	height: 325px;
+    width: 1305px;
+	box-shadow: 0px 10px 5px 5px #5d4037;
+	-webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}	
+.topnav{
+    width: 95vw;
+    background: rgb(99, 4, 4);
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top:5px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    border-radius:15px;
+    background-color: rgba(190, 201, 34, 0.959);
+    box-shadow:0 2px 20px 0 rgba(202, 233, 24, 0.986);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #491009;
+    color: white;
+    border-radius:15px;
+    margin:5px;
+  }
+  .topnav a.active:hover{
+    /*background-color: #ddd;*/
+    color: black;
+  }
+  #inActive{
+    border-radius:15px;
+    margin:5px;
+   
+  }
+  
+#bottomLayout{
+     height: auto;
+     width: 95vw;
+     border-radius: 10px;
+     opacity: 0.9;
+     background-color: #B3A938;
+     margin-top: 10px;
+	 border-style: solid;
+     border-radius: 10px;
+     border-color: #b61827;
+     box-shadow: 5 20px 10px 10 rgba(21, 22, 13, 0.986);
+ }
+ #logout{
+     
+     background: #c0392b;
+     color: white;
+     border-radius:5px;
+     margin:5px;
+ }
+ #logout:hover{
+  background-color: rgba(190, 201, 34, 0.959);
+  border-radius:15px;
+  box-shadow:0 2px 20px 0 rgba(202, 233, 24, 0.986);
+    color: black;
+ }
+ input[type=submit] {
+    width: 10em;
+    height: 2.5em;
+    background-color: #c0392b;
+    color: #ffffff; 
+    padding: 5px;
+    border-radius: 10px;
+}
+input[type=submit]:hover{
+    background-color: #b61827;
+    color: #000;
+}
+#rowHeading{
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #c0392b;
+    font-weight: italic;
+}
+#input{
+    border-color: #c0392b;
+    border-radius: 5px;
+    width: 180px;
+    height: 20px;
+}
